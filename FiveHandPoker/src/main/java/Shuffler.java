@@ -15,5 +15,6 @@ public class Shuffler {
             tempSize--;
         }
         deck.setDeck(tempDeck);
+        deck.Shuffled(true);
     }
 }

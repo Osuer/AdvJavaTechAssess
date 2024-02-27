@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="dccf3a93-6cb3-4510-870e-b5641fc5edd5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shuffler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shuffler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,22 +63,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrinterTest.print">
-    <configuration name="DeckTest.getCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DealerTest.TestDeck">
+    <configuration name="DealerTest.DealTopCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FiveHandPoker" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeckTest" />
-      <option name="METHOD_NAME" value="getCard" />
+      <option name="MAIN_CLASS_NAME" value="DealerTest" />
+      <option name="METHOD_NAME" value="DealTopCard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeckTest.getTopCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealerTest.TestDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FiveHandPoker" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeckTest" />
-      <option name="METHOD_NAME" value="getTopCard" />
+      <option name="MAIN_CLASS_NAME" value="DealerTest" />
+      <option name="METHOD_NAME" value="TestDeck" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DealerTest.TestDeck" />
+        <item itemvalue="JUnit.DealerTest.DealTopCard" />
         <item itemvalue="JUnit.PrinterTest.print" />
         <item itemvalue="JUnit.ShufflerTest.ShuffleTest" />
         <item itemvalue="JUnit.DeckTest.printDeck" />
-        <item itemvalue="JUnit.DeckTest.getCard" />
-        <item itemvalue="JUnit.DeckTest.getTopCard" />
       </list>
     </recent_temporary>
   </component>
