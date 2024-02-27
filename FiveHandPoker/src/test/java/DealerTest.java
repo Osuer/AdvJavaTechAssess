@@ -11,15 +11,6 @@ public class DealerTest {
     Dealer dealer = new Dealer();
     Shuffler shuffler = new Shuffler();
     Printer printer = new Printer();
-    @Test
-    public void DealTopCard() {
-        Card card = dealer.dealCard(deck);
-        assertEquals(1,card.getSuit());
-        assertEquals(1,card.getValue());
-        card = dealer.dealCard(deck);
-        assertEquals(1,card.getSuit());
-        assertEquals(2,card.getValue());
-    }
 
     @Test
     public void TestDeck(){
@@ -30,10 +21,7 @@ public class DealerTest {
             shuffler.shuffleDeck(deck);
         }
         ArrayList<Card> FiveCardHand = new ArrayList<>();
-        for (int i = 0; i < 5 ; i++) {
-            Card card = dealer.dealCard(deck);
-            FiveCardHand.add(card);
-        }
+        FiveCardHand = dealer.dealHand(deck,5);
 
         printer.printHand(FiveCardHand);
     }

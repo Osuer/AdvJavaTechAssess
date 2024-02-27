@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Printer {
+    // Think of ways to instantiate a printer based on other types of card decks.
 
     private HashMap<Integer, String> suitMap = new HashMap<Integer, String>();
     private HashMap<Integer, String> valueMap = new HashMap<Integer, String>();
@@ -31,7 +32,7 @@ public class Printer {
         }
     }
 
-    public void printCard(Card card){
+    private void printCard(Card card){
         System.out.print(valueMap.get(card.getValue() - 1 ) + " Of " + suitMap.get(card.getSuit() - 1));
     }
 
