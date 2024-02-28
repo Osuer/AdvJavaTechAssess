@@ -33,7 +33,7 @@ public class Printer {
     }
 
     private void printCard(Card card){
-        System.out.print(valueMap.get(card.getValue() - 1 ) + " Of " + suitMap.get(card.getSuit() - 1));
+        System.out.print(valueMap.get(card.getValue()) + " Of " + suitMap.get(card.getSuit()));
     }
 
 }

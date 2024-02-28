@@ -15,6 +15,5 @@ public class Dealer {
         deck.CompleteDeck(false);
         return card;
     }
-
-    }
+}
 

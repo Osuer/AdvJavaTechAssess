@@ -13,8 +13,8 @@ public class Deck {
     // Make map setup dynamic with constructor
     public Deck() {
         deck = new ArrayList<>();
-        int[] suit = {1,2,3,4};
-        int[] value = {1,2,3,4,5,6,7,8,9,10,11,12,13};
+        int[] suit = {0,1,2,3};
+        int[] value = {0,1,2,3,4,5,6,7,8,9,10,11,12};
         for (int i = 0 ; i < 4 ; i++){
             for (int j = 0; j < 13; j++) {
                 this.deck.add(new Card(suit[i], value[j]));

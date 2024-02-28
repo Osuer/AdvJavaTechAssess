@@ -7,8 +7,8 @@
     <list default="true" id="dccf3a93-6cb3-4510-870e-b5641fc5edd5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Dealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dealer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DealerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DealerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,52 +62,51 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DealerTest.TestDeck">
-    <configuration name="DealerTest.DealTopCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HandTest">
+    <configuration name="HandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FiveHandPoker" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DealerTest" />
-      <option name="METHOD_NAME" value="DealTopCard" />
+      <option name="MAIN_CLASS_NAME" value="HandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandTest.TestHandForFullHouseOfAKind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FiveHandPoker" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HandTest" />
+      <option name="METHOD_NAME" value="TestHandForFullHouseOfAKind" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DealerTest.TestDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandTest.TestHandForOnePair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FiveHandPoker" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DealerTest" />
-      <option name="METHOD_NAME" value="TestDeck" />
+      <option name="MAIN_CLASS_NAME" value="HandTest" />
+      <option name="METHOD_NAME" value="TestHandForOnePair" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeckTest.printDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandTest.TestHandForThreeOfAKind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FiveHandPoker" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeckTest" />
-      <option name="METHOD_NAME" value="printDeck" />
+      <option name="MAIN_CLASS_NAME" value="HandTest" />
+      <option name="METHOD_NAME" value="TestHandForThreeOfAKind" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrinterTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandTest.TestHandForTwoPair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FiveHandPoker" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
-      <option name="METHOD_NAME" value="print" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShufflerTest.ShuffleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FiveHandPoker" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShufflerTest" />
-      <option name="METHOD_NAME" value="ShuffleTest" />
+      <option name="MAIN_CLASS_NAME" value="HandTest" />
+      <option name="METHOD_NAME" value="TestHandForTwoPair" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DealerTest.TestDeck" />
-        <item itemvalue="JUnit.DealerTest.DealTopCard" />
-        <item itemvalue="JUnit.PrinterTest.print" />
-        <item itemvalue="JUnit.ShufflerTest.ShuffleTest" />
-        <item itemvalue="JUnit.DeckTest.printDeck" />
+        <item itemvalue="JUnit.HandTest" />
+        <item itemvalue="JUnit.HandTest.TestHandForOnePair" />
+        <item itemvalue="JUnit.HandTest.TestHandForTwoPair" />
+        <item itemvalue="JUnit.HandTest.TestHandForFullHouseOfAKind" />
+        <item itemvalue="JUnit.HandTest.TestHandForThreeOfAKind" />
       </list>
     </recent_temporary>
   </component>
