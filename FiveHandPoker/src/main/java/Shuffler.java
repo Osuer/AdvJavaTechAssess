@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
+
+// Check if better algorithm for shuffle
+// random vs secure random
 public class Shuffler {
     public void shuffleDeck(Deck deck){
         Random rand = new Random();

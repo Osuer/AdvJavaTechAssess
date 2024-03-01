@@ -6,10 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="dccf3a93-6cb3-4510-870e-b5641fc5edd5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dealer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shuffler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shuffler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DealerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DealerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrinterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Hand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DealerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DealerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HandTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PrinterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PrinterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +63,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code/LeonteqScalaProject&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -62,22 +75,38 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HandTest">
-    <configuration name="HandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.main">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="FiveHandPoker" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandEvaluatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FiveHandPoker" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HandTest" />
+      <option name="MAIN_CLASS_NAME" value="HandEvaluatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandTest.TestHandForFullHouseOfAKind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandEvaluatorTest.TestHandForStraightFlush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FiveHandPoker" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HandEvaluatorTest" />
+      <option name="METHOD_NAME" value="TestHandForStraightFlush" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FiveHandPoker" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HandTest" />
-      <option name="METHOD_NAME" value="TestHandForFullHouseOfAKind" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,33 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandTest.TestHandForThreeOfAKind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FiveHandPoker" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HandTest" />
-      <option name="METHOD_NAME" value="TestHandForThreeOfAKind" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HandTest.TestHandForTwoPair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FiveHandPoker" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HandTest" />
-      <option name="METHOD_NAME" value="TestHandForTwoPair" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.HandEvaluatorTest" />
+        <item itemvalue="JUnit.HandEvaluatorTest.TestHandForStraightFlush" />
         <item itemvalue="JUnit.HandTest" />
         <item itemvalue="JUnit.HandTest.TestHandForOnePair" />
-        <item itemvalue="JUnit.HandTest.TestHandForTwoPair" />
-        <item itemvalue="JUnit.HandTest.TestHandForFullHouseOfAKind" />
-        <item itemvalue="JUnit.HandTest.TestHandForThreeOfAKind" />
       </list>
     </recent_temporary>
   </component>
