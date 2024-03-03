@@ -1,0 +1,15 @@
+FiveHandPoker\PokerHand.class
+CardGame\Dealer.class
+CardGame\Card.class
+CardGame\StandardDeckValues.class
+CardGame\Shuffler.class
+CardGame\Deck.class
+CardGame\StandardDeckSuits.class
+CardGame\StandardShuffler.class
+FiveHandPoker\PokerHandEvaluator.class
+CardGame\Hand.class
+CardGame\StandardDeckPrinter.class
+CardGame\HandEvaluator.class
+FiveHandPoker\FiveHandPoker.class
+CardGame\StandardDeck.class
+CardGame\Printer.class

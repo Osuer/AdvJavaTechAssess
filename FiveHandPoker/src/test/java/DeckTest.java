@@ -1,7 +1,0 @@
-import org.junit.Test;
-
-import static org.junit.Assert.*;
-
-public class DeckTest {
-    Deck deck = new Deck();
-}

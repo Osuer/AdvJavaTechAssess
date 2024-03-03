@@ -1,0 +1,5 @@
+CardGame\DealerTest.class
+CardGame\StandardDeckTest.class
+FiveHandPoker\PokerHandEvaluatorTest.class
+CardGame\CardTest.class
+CardGame\StandardShufflerTest.class
