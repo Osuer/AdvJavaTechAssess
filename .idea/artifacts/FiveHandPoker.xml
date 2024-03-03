@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="FiveHandPoker">
+    <output-path>$PROJECT_DIR$/out/artifacts/FiveHandPoker</output-path>
+    <root id="archive" name="FiveHandPoker.jar" />
+  </artifact>
+</component>
